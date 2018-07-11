@@ -1,0 +1,16 @@
+ru:
+  activerecord:
+    errors:
+      models:
+        usd_rate:
+          attributes:
+            rubles:
+              greater_than: 'значение должно быть больше %{count}'
+              less_than: 'значение должно быть меньше %{count}'
+            filled_rubles:
+              blank_though_discontinues_at_present: 'не может быть пустым если дата периода окончания установлена'
+              greater_than: 'значение должно быть больше %{count}'
+              less_than: 'значение должно быть меньше %{count}'
+            filled_rubles_discontinues_at:
+              cannot_be_in_the_past: 'должно иметь значение, большее текущего времени'
+
